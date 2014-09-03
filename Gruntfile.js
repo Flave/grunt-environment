@@ -20,10 +20,8 @@ module.exports = function(grunt) {
         }
     });
 
-    //grunt.loadNpmTask('')
 
     grunt.registerMultiTask('env', 'set env variable', function() {
-        //console.log(this.data.env);
         var done = this.async();
         var env = this.data.env;
         var code = 'window.env="' + env + '"; \n';

@@ -1,4 +1,5 @@
-window.env="dev"; 
+window.env="dev";
+
 (function() {
 	config = {
 		dev: {
